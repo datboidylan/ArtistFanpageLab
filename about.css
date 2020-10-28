@@ -1,0 +1,146 @@
+body {
+    color:#FFCDB2;
+    background-color: #6d6875;
+    margin: auto;
+}
+
+/* Setting up rows and columns */
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+/* The different sections/boxes */
+
+.section1 {
+    order: 1;
+}
+
+.section2 {
+    background-color: #b5838d;
+    border: 2px solid #E5989B;
+    order: 4;
+    width: 35%;
+    margin:auto;
+    align-content: center;
+    justify-content: center;
+}
+
+.section3 {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 10%;
+    margin-bottom: 25px;
+    background-color: #b5838d;
+    border: 2px solid #E5989B;
+    border-radius: 5px;
+    padding: 10px;
+    order: 2;
+}
+
+.section4 {
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 10%;
+    margin-bottom: 25px;
+    background-color: #b5838d;
+    border: 2px solid #E5989B;
+    border-radius: 5px;
+    padding: 10px;
+    order: 3;
+}
+
+.row4 {
+    display: flex;
+}
+
+.section5 {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 10%;
+    margin-bottom: 15px;
+    background-color: #b5838d;
+    border: 2px solid #E5989B;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.section6 {
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 10%;
+    margin-bottom: 15px;
+    background-color: #b5838d;
+    border: 2px solid #E5989B;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.row5 {
+    display: flex;
+}
+
+.itemrow4 {
+    flex: 1;
+}
+
+.itemrow5 {
+    flex: 1;
+}
+/* Navbar customization */
+
+li {
+    display: inline;
+}
+
+a {
+    transition-duration: .5s;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+  transition-duration: .5s;
+  color: #FFCDB2;
+
+}
+
+.navbutton {
+transition-duration: .5s;
+text-decoration: none;
+border-bottom: 2px solid salmon;
+padding: 5px 10px;
+background-color: slategrey;
+}
+
+.navbutton:hover {
+transition-duration: .5s;
+background-color: slategrey;
+}
+
+#navbar {
+margin-top: 5px;
+float: left;
+}
+
+/* Misc. */
+
+div {
+    text-align: center; 
+}
+
+.thegangpic {
+    width: 400px;
+    height: 300px;
+    margin: 5px;
+}

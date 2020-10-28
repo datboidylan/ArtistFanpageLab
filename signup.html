@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<head>
+    <title>mcvirginsSIGN</title>
+
+    <link rel = "stylesheet" href = "flexsheets.css">
+</head>
+
+<header>
+    <div class = "row">
+        <div id = "navbar">
+            <nav>                
+                <li class = "navbutton navitem1 item"><a href = "index.html">Home</a></li>
+                <li class = "navbutton navitem2 item"><a href = "signup.html">Signup</a></li>
+                <li class = "navbutton navitem3 item">Login (n/a)</li>
+                <li class = "navbutton navitem4 item"><a href = "about.html">About</a></li>
+                <li class = "navbutton navitem5 item"><a href = "media.html">Media</a></li>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<body>
+
+    <div class = "main-box">
+
+        <div class = "row2">
+            <div class = "section1 item">
+                <form action="signup.html" onsubmit="myFunction()">
+                    <h1>Create an Account:</h2>
+                    <p>Already Have an account? <a href = "" id = "login-link">Click Here</a></p>
+
+                    <input id = "newuser" type = "text" placeholder="Enter a Username" name = "newuser">
+                    <br>
+                    <input id = "newmail" type = "email" placeholder="Enter a email address" name = "newmail">
+                    <br>
+                    <input id = "newpassword" type = "password" placeholder="Enter a password" name = "newpass">
+                    <br>
+
+                    <button class = "submitButton" type = "submit">Submit</button>
+
+                    <script>
+                        function myFunction() {
+                            alert("the form was submitted")
+                        }
+                    </script>
+                </form>
+        </div>
+
+        <div class = "row3">
+            <div class = "section2 item">
+                <h2>OR:</h2>
+
+                <button class = "loginBtn loginBtn--facebook">
+                    Login with Facebook
+                </button>
+
+                <br>
+
+                <button class = "loginBtn loginBtn--google">
+                    Login with Google
+                </button>
+            </div>
+        </div>
+
+        <div class = "row4">
+            <div class = "section3 item">
+                <hr>
+                
+                <img id = "forever-virgs" src="Images/forevervirgs.jpg">
+
+                <br>
+
+                <button id = "about-button" type = "button"><a href = "about.html">About</a></button>
+            </div>
+        </div>
+    </div>
+</body>
